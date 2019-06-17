@@ -444,15 +444,12 @@ html h2 {
             width: 250px;
             height: 250px;
         }
-        .caixinhas_recursos{
-            right: 30px;
-        }
         .caixinhas_recursos p{
-            font-size: 10px;
+            font-size: 13px;
         }
         .caixinhas_recursos img{
             position: relative;
-            /* right: 10px; */
+            right: 10px;
         }
         .img_quem_somos img{
             height: 200px;

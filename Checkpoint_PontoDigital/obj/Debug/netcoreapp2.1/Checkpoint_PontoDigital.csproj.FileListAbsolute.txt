@@ -111,4 +111,3 @@ C:\Users\fic\Desktop\Checkpoint_PontoDigital\obj\Debug\netcoreapp2.1\Checkpoint_
 C:\Users\fic\Desktop\Checkpoint_PontoDigital\obj\Debug\netcoreapp2.1\Checkpoint_PontoDigital.csproj.CopyComplete
 C:\Users\fic\Desktop\Checkpoint_PontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Depoimento\Depoimentos.g.cshtml.cs
 C:\Users\Batista\Desktop\Checkpoint_PontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Depoimento\Depoimentos.g.cshtml.cs
-C:\Users\46864796817\Desktop\Checkpoint_PontoDigital\obj\Debug\netcoreapp2.1\Razor\Views\Depoimento\Depoimentos.g.cshtml.cs

@@ -137,7 +137,7 @@ namespace Checkpoint_PontoDigital.Repositorio {
         }
 
         private string PrepararRegistroCSV (DepoimentoModel usuario) {
-            return $"id={CONT};nome={usuario.Nome};titulo={usuario.Titulo};descricao={usuario.Descricao};estado={usuario.Estado}\n";
+            return $"id={CONT};nome={usuario.Nome};email={usuario.Email};telefone={usuario.Telefone};titulo={usuario.Titulo};descricao={usuario.Descricao};estado={usuario.Estado}\n";
         }
 
         public void Excluir (ulong id) {

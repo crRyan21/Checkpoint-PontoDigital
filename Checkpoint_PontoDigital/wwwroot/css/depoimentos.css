@@ -1,6 +1,6 @@
 .dep{
     position: absolute;
-    bottom: 500px;
+    bottom: 250px;
     margin: 0 20%;
     /* background: rgb(121, 121, 121); */
 }
@@ -23,26 +23,4 @@
     background: rgb(255, 255, 255); 
     font-family: 'Courier New', Courier, monospace;
     color: black;   
-}
-.deps{
-    position: absolute;
-    bottom: 500px;
-    margin: 0 20%;
-    /* background: rgb(121, 121, 121); */
-}
-.deps table{
-    color: white;
-    width: 800px;
-}
-.deps th{
-    width: 200px;
-    background: rgb(121, 121, 121);
-}
-.deps td{
-    background: rgb(255, 255, 255); 
-    font-family: 'Courier New', Courier, monospace;
-    color: black;   
-}
-.deps h2{
-    color: white;
 }
