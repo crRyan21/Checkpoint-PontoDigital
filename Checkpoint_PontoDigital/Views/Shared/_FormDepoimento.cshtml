@@ -1,0 +1,54 @@
+<section class="formulario_container" >
+            <h1>Envie seu depoimento</h1>
+        <div class="formulario_content">
+        <form  id="form" method="POST" action='@Url.Action("EnviarDepoimento","Depoimento")'>
+                <label for="nome">Digite seu nome completo</label>
+                <input id="nome" type="text" name="nome" placeholder="Digite Seu Nome" maxlength="50" required>
+                <label for="email">Digite seu e-mail</label>
+                <input id="email"  type="text" name="email" placeholder="Digite Seu E-mail" maxlength="30" required>
+
+                <label for="telefone">Digite seu n° de telefone</label>
+                <input  id="telefone" type="text" name="telefone" placeholder="Digite Seu Telefone" maxlength="15" required>
+                        <label>Estado:</label>
+                 <select name="estado" required="">
+                        <option value="" disabled="" selected="">Selecione seu Estado:</option>
+                        <option value="AC">Acre</option>
+                        <option value="AL">Alagoas</option>
+                        <option value="AP">Amapá</option>
+                        <option value="AM">Amazonas</option>
+                        <option value="BA">Bahia</option>
+                        <option value="CE">Ceará</option>
+                        <option value="DF">Distrito Federal</option>
+                        <option value="ES">Espírito Santo</option>
+                        <option value="GO">Goiás</option>
+                        <option value="MA">Maranhão</option>
+                        <option value="MT">Mato Grosso</option>
+                        <option value="MS">Mato Grosso do Sul</option>
+                        <option value="MG">Minas Gerais</option>
+                        <option value="PA">Pará</option>
+                        <option value="PB">Paraíba</option>
+                        <option value="PR">Paraná</option>
+                        <option value="PE">Pernambuco</option>
+                        <option value="PI">Piauí</option>
+                        <option value="RJ">Rio de Janeiro</option>
+                        <option value="RN">Rio Grande do Norte</option>
+                        <option value="RS">Rio Grande do Sul</option>
+                        <option value="RO">Rondônia</option>
+                        <option value="RR">Roraima</option>
+                        <option value="SC">Santa Catarina</option>
+                        <option value="SP">São Paulo</option>
+                        <option value="SE">Sergipe</option>
+                        <option value="TO">Tocantins</option>
+                    </select>
+                        <label>Titulo do Vídeo:</label>
+                        <input value="" placeholder="Titulo do vídeo*" type="text" id="title" name="titulo" class="input" tabindex="5">
+                    <a class="input-file-button" href="javascript:void(0)" tabindex="4">Selecione seu vídeo</a>
+                        <label>Comentários:</label>
+                        <textarea placeholder="Descrição*" id="description" class="input input-description " name="descricao" tabindex="6"></textarea>
+                <input type="submit" value="Registrar" class="enviar" >
+         </form>
+    </section>
+
+
+   
+                       

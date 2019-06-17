@@ -1,0 +1,23 @@
+@{
+    Html.RenderPartial("_Head");
+}
+
+<body>
+    <header class="topo_container">
+        
+        @{
+            Html.RenderPartial("_HeaderNavBar",ViewData["User"]);
+        }
+        <button id="btn_menu"><img src="~/img/menu.png" alt="Menu"></button>
+        <section class="banner">
+            <img src="~/img/macbook-air-1366x768-apple-macbook-pro-4k-16623.jpg" width="100%" height="770 px" alt="">
+        </section>
+    </header>
+@{
+    Html.RenderPartial("_FormDepoimento");
+}
+@{
+    Html.RenderPartial("_Footer");
+}
+</body>
+</html>

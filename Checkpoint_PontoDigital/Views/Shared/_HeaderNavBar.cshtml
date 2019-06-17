@@ -1,0 +1,53 @@
+   @{
+       var usuario = (string)ViewData["User"];
+   }
+       
+         <nav class="navbar navbar-expand-lg navbar-dark bg-dark" style="background-color: #fff;">         
+               
+  <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="nav-item">
+      <div class="logotipo">
+
+          <a class="nav-link" href='@Url.Action("Index","Home")'><img src="~/img/Prancheta 1@4x.png" width="91px" height="94px"
+                  alt="Logo do Ponto Digital"></a>
+                  </div>
+      </div>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item ">
+        <a class="nav-link" href='@Url.Action("Index","Home")'> Home <span class="sr-only">(Página atual)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href='@Url.Action("Index","Home")#funcionalidades'>Funcionalidades</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href='@Url.Action("Index", "Home")#planos'>Planos</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href='@Url.Action("Index", "Home")#quem_somos'>Quem Somos</a>
+      </li>
+      <li class="nav-item">
+            <a class="nav-link"  href='@Url.Action("Login","Cliente")'>Login/Cadastro</a>
+          </li>
+    </ul>
+  </div>
+</nav>
+   <!-- <nav class='menu'>
+            <ul>
+                <li><a href='@Url.Action("Index","Home")'>Home</a></li>
+                <li><a href='@Url.Action("Index", "Home")#funcionalidades'>Funcionalidades</a></li>
+                <li><a href='@Url.Action("Index", "Home")#planos'>Planos</a></li>                
+                <li><a href='@Url.Action("Index", "Home")#quem_somos'>Quem Somos</a></li>    
+                @if (string.IsNullOrEmpty(usuario))
+                {
+                <li><a href='@Url.Action("Login","Cliente")' >Login/Cadastro</a></li>                    
+                }else
+                {
+                <li><a href='@Url.Action("Login","Cliente")' >Logout</a></li>                                        
+                }
+                              
+            </ul>
+        </nav> -->

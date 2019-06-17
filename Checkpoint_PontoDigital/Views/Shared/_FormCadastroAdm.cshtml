@@ -1,0 +1,21 @@
+<section class="formulario_container" >
+            <h1>Registrar-se</h1>
+        <div class="formulario_content">
+        <form  id="form" method="POST" action='@Url.Action("Cadastrar","CadastroAdm")'>
+                <label for="nome">Digite seu nome completo</label>
+                <input id="nome" type="text" name="nome" placeholder="Digite Seu Nome" maxlength="50" required>
+                <label for="email">Digite seu e-mail</label>
+                <input id="email"  type="text" name="email" placeholder="Digite Seu E-mail" maxlength="30" required>
+                <label for="nascimento">Digite sua data de nascimento</label>
+                <input  id="nascimento" type="date" name="nascimento" placeholder="Digite sua data de nascimento" required> 
+                <label for="telefone">Digite seu n° de telefone</label>
+                <input  id="telefone" type="text" name="telefone" placeholder="Digite Seu Telefone" maxlength="15" required>
+                <label for="senha">Digite sua senha</label>
+                <input id="senha"  type="password" name="senha" placeholder="Digite sua Senha" maxlength="30" required>
+                <label for="cosenha">Confirme sua senha</label>
+                <input id="cosenha"  type="password" name="cosenha" placeholder="Confirme sua Senha" maxlength="30" required>
+
+                <input type="submit" value="Registrar" class="enviar" >
+         </form>
+</div>
+    </section>

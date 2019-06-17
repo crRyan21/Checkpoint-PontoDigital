@@ -1,0 +1,20 @@
+   <section class="formulario_container" >
+            <h1>Login</h1>
+        <div class="formulario_content">
+        <form  method="Post" id="form" action='@Url.Action("Login","Cliente")'>
+            
+                <input type="text" name="email" placeholder="Digite Seu E-mail" maxlength="30" required>
+    
+                <input type="password" name="senha" placeholder="Digite sua senha" maxlength="30" required>
+                <input type="submit" value="Entrar" class="enviar" >
+
+                </div>
+                <div class="ir_cadastrar" >
+                <a href='@Url.Action("Index","Cadastro")'>Quero me cadastrar!</a>                
+                </div>
+                <div class="ir_cadastrar">
+                <a href='@Url.Action("AdministradorLogin","Administrador")'>É um administrador?</a>                
+                </div>
+
+</form>
+    </section>

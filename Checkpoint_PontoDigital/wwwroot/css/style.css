@@ -1,0 +1,485 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+nav{
+    
+    /* width: 716px; */
+    height: 46px; 
+    position: relative;
+    /* background: #000; */
+    
+}
+.logotipo{
+    position: relative;
+    top: 25px;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0 130px;
+}
+nav li{
+    margin: 0 auto;
+    padding: 20px;
+}
+nav a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Comfortaa', cursive, sans-serif;
+}
+.banner {
+    margin-top: -70px;
+    position: inherit;
+}
+
+.logo {
+    position: absolute;
+    padding: 1.5em;
+}
+
+html h2 {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive, sans-serif;
+    font-weight: lighter
+}
+
+.slogan {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    bottom: 80px;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.247);
+    width: 70%;
+}
+
+.slogan h2 {
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Comfortaa', cursive, sans-serif;
+    font-weight: lighter
+}
+.recursos{
+    position: relative;
+    top: 30px;
+}
+.recursos h2 {
+    position: relative;
+    top: 30px;
+    /* font-size: 20px; */
+}
+.content_recursos{
+    display: flex;
+    justify-content: space-evenly
+}
+.caixinhas_recursos {
+    display: flex;
+    position: relative;
+    top: 120px;
+    height: 230px;
+    width: 250px;
+    /* background-color: rgb(228, 226, 226); */
+}
+
+.caixinhas_recursos p{
+    justify-content: center;
+    position: relative;
+    top: 23px;
+    text-align: center;
+    margin: 50px 30px;
+    font-size: 18px;
+    font-family: 'Comfortaa', cursive, sans-serif;
+}
+.caixinhas_recursos img{
+    position: absolute;
+    left: 90px;
+    
+}
+
+#funcionalidades{
+    
+    position: relative;
+    top: 230px;
+    background-color: rgb(58, 30, 8);
+    /* height: 500px; */
+}
+#funcionalidades h2{
+    top: 30px;
+    color: white;
+}
+.coluna_funcionalidades{
+    display: flex;
+    margin: 10%;
+    flex-direction: column;
+    height: 260px;
+    width: 350px;
+    
+}
+.coluna_funcionalidades p{
+    left: 20px;
+    font-family: 'Comfortaa', cursive, sans-serif;
+    color: white;
+    font-size: 15px;
+}
+.two_coisas{
+    display: flex;
+    flex-direction: row;
+}
+.video_funcionalidades{
+    position: relative;
+    top: 100px;
+}
+#planos{
+    font-family: 'Comfortaa', cursive, sans-serif;
+    /* background-color: rgb(58, 30, 8); */
+    position: relative;
+    top: 230px;
+    height: 500px;
+    background: bisque;
+}
+#planos h2{
+    position: relative;
+    top: 60px;
+    font-weight: bold;
+}
+.tabelas{
+    display: flex;
+    justify-content: space-around;
+}
+.tabelinha{
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 110px;
+    background-color: rgb(255, 255, 255);
+    height: 280px;;
+    margin: 10px;
+}
+
+.tabelinha p{
+    position: relative;
+    margin: 10px 10px;
+    top: 15px;
+    font-size: 15px;
+    background-color: rgb(224, 224, 224);
+
+}
+.precos{
+    height: 50px;
+}
+.tabelinha h3{
+    font-weight: lighter;
+    margin: 10px 10px;
+    font-size: 30px;    
+}
+.depoimentos{
+    justify-content: center;
+    position: relative;
+    top: 230px;
+    background-color: rgb(58, 30, 8);
+    height: 700px;
+}
+
+.depoimentos h2{
+    position: relative;
+    top:70px;
+    color: white;
+}
+.depoimentos_content{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 150px;
+}
+.video_txt{
+    background-color: rgb(228, 228, 228);
+    width: 560px;
+}
+.video_txt p{
+   margin: 15px;
+   font-family: 'Comfortaa', cursive, sans-serif;
+    font-size: 15px;
+}
+#envie_depoimento{
+    background: #fff;
+    position: relative;
+    top: 180px;
+    width: 15%;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+#envie_depoimento a{
+    list-style-type: none;
+    text-decoration: none;
+}
+#envie_depoimento h3{
+    font-size: 15px;
+   font-family: 'Comfortaa', cursive, sans-serif;
+    text-align: center;
+    margin: 5px;
+    font-weight: bolder
+}
+#envie_depoimento :hover{
+    background: rgb(94, 9, 9);
+    cursor: pointer;
+    color: #fff;
+}
+#quem_somos{
+    position: relative;
+    top:330px;
+}
+.historia{
+    display: flex;
+    margin: 10%;
+    height: 260px;
+    width: 450px;
+    
+}
+.historia p{
+    font-family: 'Comfortaa', cursive, sans-serif;
+    font-size: 15px;
+}
+.quem_somos_content{
+    display: flex;
+}
+.img_quem_somos{
+    position: relative;
+    top: 70px;
+}
+.destaque_txt{
+    position: absolute;
+    top: 500px;
+    left: 46%
+}
+.local{
+    position: relative;
+    top: 420px;
+    background-color: rgb(58, 30, 8);
+}
+.local h2{
+    position: relative;
+    top: 30px;
+    color: white;
+}
+.local iframe{
+    position: relative;
+    top: 40px;
+}
+.contato{
+    position: inherit;
+    top: 10px;
+    background: bisque;
+    height: 190px;
+}
+.contato h2{
+    /* font-size: 18px; */
+    position: relative;
+    top: 10px;
+    color: black;
+}
+.contato_content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.contato_content p{
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+    font-family: 'Comfortaa', cursive, sans-serif;
+}
+@media only screen and (max-width: 1300px){
+    .slogan{
+        width: 100%;
+    }
+    .video_txt{
+        width: 300px;
+    }
+    .video_txt iframe{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        height: 300px;
+        width:300px;
+    }
+    #envie_depoimento {
+        position: relative;
+        bottom: 30px;
+    }
+}
+@media screen and (max-width:990px){
+        
+    .logo{
+        justify-content: flex-end;
+    }
+    nav li{
+        position: relative;
+        width: 200px;
+        background: rgba(0, 0, 0, 0.575);
+        bottom: 30px;
+        left: -60%;
+    }
+    nav a{
+        color: #fff;
+        font-weight: bold;
+    }
+}
+@media only screen and (max-width: 967px){
+    p{
+        font-size: 20px;
+    }
+    h2{
+        font-size: 25px
+    }
+    .slogan h2{
+        font-size: 25px;
+    }
+    .menu a{
+        font-size: 14px;
+    }
+    .caixinhas_recursos p{
+        font-size: 16px;
+    }
+    .caixinhas_recursos img{
+        height: 50px;
+        width:50px;
+
+    }
+    .quem_somos_content{
+        height: 400px;
+    }
+    .img_quem_somos img{
+        height: 249px;
+        width: 475px;
+    }
+    .img_quem_somos{
+        height: 249px;
+        width: 475px;
+    }
+    .destaque_txt {
+        display: none;
+    }
+    
+    .video_funcionalidades iframe{
+        width: 300px;
+        height: 300px;
+    }
+    .preco h3{
+        font-size: 20px;
+        font-weight: bold;
+    }
+}
+@media screen and (max-width:900px){
+    #planos{
+        height: 920px;
+    }
+    .tabelas{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        justify-content: center;
+        margin: 0 auto;
+    }
+    .tabelinha{
+        height: 230px;
+    }
+    .tabelinha p{
+        margin: 2px 10px;
+        font-size: 15px;
+    }
+    /* .preco h3{
+        font-size: 20px;
+    } */
+}
+@media screen and (max-width:860px){
+    .img_quem_somos img{
+        width: 350px;
+        height: 300px;
+    }
+    .coluna_funcionalidades p{
+        font-size: 10px;
+        margin: 5px;
+    }
+    .video_funcionalidades iframe{
+        position: relative;
+        margin-right: 20px;
+        bottom: 50px;
+    }
+    
+}
+@media screen and (max-width:800px){
+    .banner img{
+        
+        height: 500px;
+    }
+    nav li{
+        margin-top: -15px;
+    }
+    nav a{
+        font-size: 10px;
+    }
+}
+
+    @media screen and (max-width:768px){
+        .content{
+            width:90%;
+            
+        }
+        .logo{
+    display: none;
+        }
+    }
+    @media screen and (max-width:768px){
+        .banner img{
+            height: 370px;
+        }
+        .video_funcionalidades iframe{
+            width: 250px;
+            height: 250px;
+        }
+        .caixinhas_recursos{
+            right: 30px;
+        }
+        .caixinhas_recursos p{
+            font-size: 10px;
+        }
+        .caixinhas_recursos img{
+            position: relative;
+            /* right: 10px; */
+        }
+        .img_quem_somos img{
+            height: 200px;
+            width: 200px;
+        }
+        .depoimentos{
+            height: 1020px;
+        }
+        #envie_depoimento{
+         width: 200px;
+        }
+        .depoimentos_content{
+            display: flex;
+            position: relative;
+            justify-content: center;
+            margin: 0 auto;
+            flex-direction: column;
+        }
+        .depoimentos_content p{
+            font-size: 10px;
+
+        }
+        .video_txt{
+            justify-content: center;
+            margin: 0 auto;
+            margin-top: 20px;
+        }
+    }
+       
+    

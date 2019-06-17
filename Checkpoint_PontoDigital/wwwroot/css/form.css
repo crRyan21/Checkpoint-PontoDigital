@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+form *{
+    margin: 3px 0;
+}
+h2 {
+    margin: 0 auto;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 70px;
+    font-family: 'Comfortaa', cursive, sans-serif;
+    font-weight: lighter
+}
+
+
+.banner {
+    margin-top: -80px;
+    position: inherit;
+}
+
+.logo {
+    position: absolute;
+    padding: 1.5em;
+}
+
+.menu {
+    position: fixed;
+    width: 716px;
+    height: 46px;
+    margin: 0 auto;
+    position: relative;
+    top: 30px
+}
+
+.menu ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Comfortaa', cursive, sans-serif;
+}
+.formulario_container{
+    position: absolute;
+    top: 140px;
+    /* background: rgb(224, 224, 224); */
+    justify-content: center;
+    left: 40%;
+    margin: 0 auto;
+    width: 300px;
+}
+h1{
+    text-align: center;
+    position: relative;
+    right: 90px;
+    font-family: 'Comfortaa', cursive, sans-serif;
+    font-weight: bold;
+    /* background: rgba(177, 131, 131, 0.233); */
+    width: 500px;
+    color: white;
+}
+.formulario_content{
+    position: relative;    display: flex;
+    justify-content: space-evenly;
+}
+#form{
+display: flex;
+flex-direction: column;
+justify-content: center;
+margin: 0 auto;
+
+}
+#form input,select{
+    border: 1px solid #e3e3e3;
+    padding: 0 16px;
+    font-size: 16px;
+    width: 746px;
+    background: #fff;
+    height: 25px;
+    border-radius: 5px
+}
+label{
+    color: #fff
+}
+.input-description {
+    font-size: 16px;
+    height: 80px;
+    padding: 5px 5px;
+    border-radius: 2px
+}
+.input-file-button {
+    text-decoration: none;  
+    text-align: center;
+    background: rgb(94, 9, 9);
+    
+    color: #fff;
+    font-weight: 700;
+    padding: 5px 18px;
+    border-radius: 14px;
+    margin-right: 7px;
+    white-space: nowrap;
+    width: 200px;
+}
+.input-submit :hover{
+    background-color: black
+}
+.input a{
+    text-decoration: none;
+}
+.contato{
+    position: inherit;
+    /* top: 450px; */
+    background: bisque;
+    height: 170px;
+}
+.contato h2{
+    font-size: 18px;
+    position: relative;
+    top: 10px;
+}
+.contato_content{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
+.contato_content p{
+    font-size: 12px;
+    position: relative;
+    top: 30px;
+    font-family: 'Comfortaa', cursive, sans-serif;
+}
+.ir_cadastrar{
+    position: relative;
+    right: 220px;
+    top: 30px;
+    background: #354175;
+    width: 160px;
+    margin-top:5px; 
+}
+.ir_cadastrar a{
+    text-decoration: none;
+    margin: 4px;
+    color: #fff;
+    
+}
+.ir_cadastrar:hover{
+    background: rgb(75, 20, 20);
+    width: 160px;
+}
+@media screen and (max-width:934px){
+    #form input,select{
+        justify-content: center;
+        /* margin: 0 auto; */
+        width: 400px;
+    }
+    .banner img{
+        height: 770px;
+    }
+@media screen and (max-width:775px){
+    .formulario_container{
+        left: 20%;
+    }
+    .ir_cadastrar{
+        position: relative;
+        right: 20%;
+    }
+}
+
+}

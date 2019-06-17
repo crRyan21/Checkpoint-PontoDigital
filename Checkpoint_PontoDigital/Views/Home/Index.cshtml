@@ -1,0 +1,159 @@
+@{
+    Html.RenderPartial("_Head");
+}
+
+<body>
+    <header class="topo_container">
+        <!-- <div class="logo">
+            <a href="#home"><img src="img/Prancheta 1@4x.png" width="97px" height="100px" alt="Logo do Ponto Digital"></a>
+        </div> -->
+     @{
+         Html.RenderPartial("_HeaderNavBar",ViewData["User"]);
+     }
+        <!-- <button id="btn_menu"><img src="img/menu.png"  alt="Menu"></button> -->
+        <section class="banner">
+            <img src="img/macbook-air-1366x768-apple-macbook-pro-4k-16623.jpg" width="100%" height="790 px" alt="">
+            <div class="slogan">
+                <h2>
+                    Agora gerenciar seus funcionários ficou muito mais fácil!
+                </h2>
+            </div>
+        </section>
+    </header>
+    <section class="recursos">
+        <h2>Veja todos os recursos</h2>
+        <div class="content_recursos">
+            <div class="caixinhas_recursos">
+                <img src="img/2d4e09879b6f017f74ffaee0b0011c0a---cone-de-olho-by-vexels.png" width="70px" height="70px"
+                    alt="">
+                <p>Monitore a carga horária de seus funcionários em qualquer horário e em qualquer lugar</p>
+            </div>
+            <br>
+            <div class="caixinhas_recursos">
+                <img src="img/felicidade.png" width="60px" height="60px" alt="">
+                <p>Facilite o trabalho de seu funcionário</p>
+            </div>
+            <br>
+            <div class="caixinhas_recursos">
+                <img src="img/digital.png" width="70px" height="70px" alt="">
+                <p>Seja diferente <br> ,seja digital</p>
+            </div>
+        </div>
+
+    </section>
+    <section id="funcionalidades">
+        <h2>Funcionalidades</h2>
+        <div class="two_coisas">
+            <div class="coluna_funcionalidades">
+                <p> <img src="img/check.png" height="20px" width="20px" alt="">Registro de ponto online e offline</p>
+                <br>
+                <p><img src="img/check.png" height="20px" width="20px" alt="">Registro de localização em tempo real</p>
+                <br>
+                <p><img src="img/check.png" height="20px" width="20px" alt="">Controle de ponto utilizando QR Code</p>
+                <br>
+                <p><img src="img/check.png" height="20px" width="20px" alt="">Registro fotográfico</p> <br>
+                <p><img src="img/check.png" height="20px" width="20px" alt="">Integração com REP</p> <br>
+            </div>
+
+
+            <div class="video_funcionalidades">
+                <iframe width="540" height="360" src="https://www.youtube.com/embed/mczABMNx1x4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+    <section id="planos">
+        <h2>Planos</h2>
+        <div class="tabelas">
+            <div class="tabelinha">
+                <div class="preco">
+                    <h3> Plano Light</h3>
+                    <h3> R$ 50,00</h3>
+                </div>
+                <p>Até 5 funcionários</p>
+                <p>Solução de controle de ponto completa</p>
+                <p>Suporte sem restrições</p>
+                <p>E-mail/ Telefone/ Chat</p>
+                <p>Cancele quando quiser</p>
+            </div>
+            <div class="tabelinha">
+                <div class="preco">
+                    <h3> Plano Medium</h3>
+                    <h3> R$ 149,90</h3>
+                </div>
+                <p>Até 50 funcionários</p>
+                <p>Solução de controle de ponto completa</p>
+                <p>Suporte sem restrições</p>
+                <p>E-mail/ Telefone/ Chat</p>
+                <p>Cancele quando quiser</p>
+            </div>
+            <div class="tabelinha">
+                <div class="preco">
+                    <h3> Plano Hyper</h3>
+                    <h3> R$ 349,90</h3>
+                </div>
+                <p>Até 300 funcionários</p>
+                <p>Solução de controle de ponto completa</p>
+                <p>Suporte sem restrições</p>
+                <p>E-mail/ Telefone/ Chat</p>
+                <p>Cancele quando quiser</p>
+            </div>
+        </div>
+    </section>
+    <section class="depoimentos">
+        <h2>Clientes Satifeitos</h2>
+        <div class="depoimentos_content">
+            <div class="video_txt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/DcTJHFNgNlc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>Decidimos trabalhar com o Ponto Digital, porque é um módulo mais simples, mais objetivo que tem
+                    todas as funcionalidades no próprio sistema.
+                    Kamila Zamprogno Bomfim - ACTEC do Brasil</p>
+            </div>
+            <div class="video_txt">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/ITA0MbLtnz4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                <p>Decidimos trabalhar com o Ponto Digital, porque é um módulo mais simples, mais objetivo que tem
+                    todas as funcionalidades no próprio sistema.
+                    Lara Moulin - AC Camargo</p>
+            </div>
+        </div>
+        <div id="envie_depoimento">
+                <h3><a href='@Url.Action("Depoimentos","Depoimento")'>Ver Comentários</a></h3>                    
+            
+        </div>
+    </section> 
+    <section id="quem_somos">
+        <h2>Quem Somos?</h2>
+        <div class="quem_somos_content">
+            <div class="historia">
+                <p>O Ponto Digital nasceu em 2013 como uma startup que tinha como objetivo resolver as questões de
+                    gerenciamento de tempo e atividades de uma das empresas de seus fundadores. Durante esse período
+                    inicial o produto se mostrou eficaz na gestão de pessoas por controle de ponto e foi aprimorado
+                    para
+                    atender requisitos da legislação nacional do Ministério do Trabalho e Emprego.</p><br>
+                <div class="destaque_txt">
+                    <p><strong>Nossa missão é fortalecer a conexão entre empresas <br> e funcionários baseada em uma
+                            cultura de prosperidade empresarial.
+
+                        </strong></p>
+                </div>
+            </div>
+            <div class="img_quem_somos">
+                <img src="img/equipe_tangerino.jpg" width="575px" height="349px" alt="">
+            </div>
+        </div>
+    </section>
+    <section class="local">
+        <h2>Localização</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.0656932253646!2d-46.65298398512074!3d-23.566083984680507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c8da0aa315%3A0xd59f9431f2c9776a!2sAv.+Paulista+-+Bela+Vista%2C+S%C3%A3o+Paulo+-+SP!5e0!3m2!1spt-BR!2sbr!4v1552302127734"
+            width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+    @{
+        Html.RenderPartial("_Footer");
+    }
+    </section>
+
+</body>
+
+</html>
