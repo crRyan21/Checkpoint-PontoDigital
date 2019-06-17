@@ -50,7 +50,7 @@ namespace AspNetCore
 #line default
 #line hidden
             BeginContext(41, 519, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a2458e129f2b4ca7be1218b560e6caf6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "8eacc60750714abf9059ce2f0bca5004", async() => {
                 BeginContext(47, 55, true);
                 WriteLiteral("\r\n    \r\n    <header class=\"topo_container\">\r\n        \r\n");
                 EndContext();
@@ -65,7 +65,7 @@ namespace AspNetCore
                 WriteLiteral("        <button id=\"btn_menu\"><img src=\"/~img/menu.png\" alt=\"Menu\"></button>\r\n        <section class=\"banner\">\r\n            ");
                 EndContext();
                 BeginContext(316, 105, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "3bd1a05ebbbf4af98b46e779f0533ded", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "eacfd6cb18494a8f80ede78ef5b5c1e8", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();

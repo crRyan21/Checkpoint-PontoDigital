@@ -48,7 +48,7 @@ namespace AspNetCore
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(43, 7389, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "22919362b34c406faef6e996b498dc9f", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "ae2411a3cfb14f52950b4a6aabf9eff8", async() => {
                 BeginContext(49, 216, true);
                 WriteLiteral("\r\n    <header class=\"topo_container\">\r\n        <!-- <div class=\"logo\">\r\n            <a href=\"#home\"><img src=\"img/Prancheta 1@4x.png\" width=\"97px\" height=\"100px\" alt=\"Logo do Ponto Digital\"></a>\r\n        </div> -->\r\n");
                 EndContext();
